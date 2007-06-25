@@ -63,7 +63,7 @@ rm -rf %{buildroot}
 %doc ChangeLog PKG-INFO README
 %{_bindir}/%{name}
 %{_sysconfdir}/gconf/schemas/*
-%{py_platsitedir}/*
+%{py_puresitedir}/*
 %{_datadir}/applications/*
 %{_datadir}/pixmaps/*
 %{_datadir}/%{name}
