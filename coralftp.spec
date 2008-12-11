@@ -12,7 +12,7 @@ URL:		https://sourceforge.net/projects/coralftp/
 License:	GPL
 Group:		Networking/File transfer
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	python-devel ImageMagick desktop-file-utils libexpat1_95
+BuildRequires:	python-devel imagemagick desktop-file-utils libexpat1_95
 Requires:	pygtk2.0 pygtk2.0-libglade gnome-python-gconf
 #Requires:	gnome-python gnome-python-gnomevfs gnome-python-gconf
 BuildArch:	noarch
