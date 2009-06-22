@@ -1,6 +1,6 @@
 %define name	coralftp
 %define version	0.2.2
-%define release %mkrel 5
+%define release %mkrel 6
 
 Name: 	 	%{name}
 Summary: 	A graphical FTP client
@@ -9,7 +9,7 @@ Release: 	%{release}
 
 Source:		CoralFTP-%{version}.tar.bz2
 URL:		https://sourceforge.net/projects/coralftp/
-License:	GPL
+License:	GPLv2+
 Group:		Networking/File transfer
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	python-devel imagemagick desktop-file-utils 
