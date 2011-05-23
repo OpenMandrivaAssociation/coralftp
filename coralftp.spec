@@ -1,6 +1,6 @@
 %define name	coralftp
 %define version	0.2.2
-%define release %mkrel 7
+%define release %mkrel 8
 
 Name: 	 	%{name}
 Summary: 	A graphical FTP client
