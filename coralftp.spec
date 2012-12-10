@@ -73,3 +73,55 @@ rm -rf %{buildroot}
 %{_miconsdir}/%{name}.png
 %{_iconsdir}/%{name}.png
 %{_liconsdir}/%{name}.png
+
+
+%changelog
+* Mon May 23 2011 Funda Wang <fwang@mandriva.org> 0.2.2-8mdv2011.0
++ Revision: 677618
+- rebuild to add gconftool as req
+
+* Sat Nov 06 2010 Jani Välimaa <wally@mandriva.org> 0.2.2-7mdv2011.0
++ Revision: 594339
+- rebuild for python 2.7
+
+* Mon Jun 22 2009 Jérôme Brenier <incubusss@mandriva.org> 0.2.2-6mdv2010.0
++ Revision: 388067
+- fix license tag
+
+* Sat Jan 24 2009 Funda Wang <fwang@mandriva.org> 0.2.2-5mdv2009.1
++ Revision: 333259
+- cleanup spec
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+    - kill re-definition of %%buildroot on Pixel's request
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Jun 25 2007 Michael Scherer <misc@mandriva.org> 0.2.2-3mdv2008.0
++ Revision: 44160
+- coralftp is noarch, so we need to use py_puresitedir
+
+  + Per Øyvind Karlsen <peroyvind@mandriva.org>
+    - fix buildrequires
+    - cosmetics
+      from James Boothe <jamesb@borkedweb.com> :
+      	o Added required dependency gnome-python-gconf
+      	o Changes python site dir specification to %%py_platsitedir as per
+      	  Mandriva rpm specs
+    - Import coralftp
+
+
+
+* Wed Sep 13 2006 Nicolas L�cureuil <neoclust@mandriva.org> 0.2.2-2mdv2007.0
+- XDG
+
+* Sat Aug 27 2005 Austin Acton <austin@mandriva.org> 0.2.2-1mdk
+- initial package
